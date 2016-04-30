@@ -4,6 +4,7 @@ https://www.reddit.com/r/dailyprogrammer/comments/4gzeze/20160429_challenge_264_
 
 ## Usage
 
+```
 $ lein repl
 c-264-hard.core=> (get-rhyme-sequence example-poem)
 "AABBA"
@@ -17,6 +18,7 @@ c-264-hard.core=> (get-rhyme-sequence challenge-poem3)
 "AABCCC"
 c-264-hard.core=> (get-rhyme-sequence challenge-poem4)
 "ABAAB"
+```
 
 ## License
 
