@@ -6,11 +6,16 @@ https://www.reddit.com/r/dailyprogrammer/comments/4fnz37/20160420_challenge_263_
 
 $ lein run "NOIR"
 
-3 NOIR N OY1 R
-2 SOIR S OY1 R
-2 MOIR M OY1 R
-2 LOIRE L OY1 R
-2 BOUDOIR B UW1 D OY2 R
+[3 NOIR N OY1 R]
+
+[2 BOUDOIR B UW1 D OY2 R]
+
+[2 LOIRE L OY1 R]
+
+[2 MOIR M OY1 R]
+
+[2 SOIR S OY1 R]
+
 
 
 ## License
