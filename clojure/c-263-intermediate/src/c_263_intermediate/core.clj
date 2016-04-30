@@ -59,4 +59,7 @@
           matches-phones (map #(dictionary %) matches)
           matches-phones-without-digits (map #(dictionary-without-digits %) matches)
           matches-count (map #(find-match-count word-phone-without-digits %) matches-phones-without-digits)]
-      (map #(println %1 %2 %3) matches-count matches matches-phones))))
+      (->> (map (fn [c w p] [c w p]) matches-count matches matches-phones)
+           (sort-by #(first %))
+           (reverse)
+           (map println)))))
