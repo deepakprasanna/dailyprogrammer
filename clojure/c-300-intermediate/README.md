@@ -1,6 +1,6 @@
 # c-300-intermediate
 
-[Link to the problem statement](https://www.reddit.com/r/dailyprogrammer/comments/5prdgb/20170123_challenge_300_easy_lets_make_some_noise/)
+[Link to problem statement](https://www.reddit.com/r/dailyprogrammer/comments/5q9cll/20170126_challenge_300_easyintermediate_lets_make)
 
 ```
 $ lein run 43 40 2
